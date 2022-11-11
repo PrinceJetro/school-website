@@ -1,0 +1,66 @@
+*{
+box-sizing:border-box
+}
+body{
+padding:0px
+}
+
+.head{
+text-align:center;
+}
+ul{
+list-style-type:none;
+overflow:hidden;
+padding:0px;
+margin:0px;
+background-color:pink;
+}
+li a{
+text-decoration:none;
+padding:14px 16px;
+display:block
+
+}
+li a:hover{
+background-color:black;
+color:green
+}
+
+li{
+display:inline-block;
+
+
+}
+
+.about{
+width:23%
+}
+.home{
+width:23%
+}
+.contact{
+width:23%
+}
+.testimonies{
+width:25%
+}
+.nav{
+margin:0px
+}
+
+
+@media screen and (max-width:500px){
+li{
+display:block;
+
+}
+li a{
+
+display:inline-block;
+}
+.testimonies{
+width:700px
+}
+
+
+}
