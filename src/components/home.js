@@ -16,7 +16,7 @@ export default function Home() {
       <div className="slider">
       
       <div className="slider-content">
-        <img src="https://worldlandscapearchitect.com/wp-content/uploads/2019/09/MAGIST%C3%89RIO-MUTU-YA-KEVELA-Luanda-Angola-12-678x452.jpg"alt="slider" className="slider-img" />
+        <img src={general.school_image}alt="slider" className="slider-img" />
         
         <div className="slider-text">
           <h1>{general.school_name} College</h1>
